@@ -1,0 +1,21 @@
+{
+	"name": "IPFS",
+	"description": "IPFS is a global, versioned, peer-to-peer filesystem. It combines good ideas from previous systems such as Git, BitTorrent, Kademlia, SFS, and the Web. It is like a single BitTorrent swarm, exchanging git objects. IPFS provides an interface as simple as the HTTP web, but with permanence built-in. You can also mount the world at /ipfs.",
+	"packageId": "ipfs",
+	"build": 1,
+	"version": "0.1.0",
+	"program": "ipfs",
+	"programArgs": [
+		"daemon"
+	],
+	"activityGroup": {
+		"customLink": "",
+		"customPort": 0,
+		"activities": null
+	},
+	"permissions": [],
+	"exportService": true,
+	"location": "external",
+	"nodejs": false,
+	"packagerVersion": "0.1.0"
+}
