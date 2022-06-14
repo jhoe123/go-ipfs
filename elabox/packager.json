@@ -1,6 +1,6 @@
 {
     "cwd": "",
     "config": "info.json",
-    "preinstall": "./elabox/install_scripts/preinstall.sh",
+    "postinstall": "./install_scripts/postinstall.sh",
     "binDir": "./bin"
 }
