@@ -9,7 +9,7 @@
 		"daemon"
 	],
 	"activityGroup": {
-		"customLink": "",
+		"customLink": ":5001/webui",
 		"customPort": 0,
 		"activities": null
 	},
@@ -17,5 +17,8 @@
 	"exportService": true,
 	"location": "external",
 	"nodejs": false,
-	"packagerVersion": "0.1.0"
+	"packagerVersion": "0.1.0",
+	"exposePorts": [
+		5001
+	]
 }
