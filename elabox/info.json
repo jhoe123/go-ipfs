@@ -4,10 +4,8 @@
 	"packageId": "ipfs",
 	"build": 1,
 	"version": "0.1.0",
-	"program": "ipfs",
-	"programArgs": [
-		"daemon"
-	],
+	"program": "run.sh",
+	"programArgs": [],
 	"activityGroup": {
 		"customLink": ":5001/webui",
 		"customPort": 0,
