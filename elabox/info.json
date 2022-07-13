@@ -16,6 +16,7 @@
 	"location": "external",
 	"nodejs": false,
 	"packagerVersion": "0.1.0",
+	"minRuntime": "0.6.8",
 	"exposePorts": [
 		5001
 	]

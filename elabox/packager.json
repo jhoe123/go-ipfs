@@ -2,5 +2,6 @@
     "cwd": "",
     "config": "info.json",
     "postinstall": "./install_scripts/postinstall.sh",
+    "uninstall": "./install_scripts/uninstall.sh",
     "binDir": "./bin"
 }
