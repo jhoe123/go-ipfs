@@ -10,6 +10,7 @@ fi
 
 # initialize
 echo "intializing ipfs"
+echo "y" | sudo apt install jq
 ./ipfs init -p server
 
 # update config
@@ -18,5 +19,5 @@ config=$(jq '.API.HTTPHeaders."Access-Control-Allow-Methods" = ["GET","PUT","POS
 config=$(echo $config | jq '.API.HTTPHeaders."Access-Control-Allow-Origin" = ["*"]')
 config=$(echo $config | jq '.Addresses.API="/ip4/0.0.0.0/tcp/5001"')
 echo $config | jq '.Addresses.Gateway="/ip4/0.0.0.0/tcp/5003"' > $tmp
-mv $tmp $config_path
+sudo rsync $tmp $config_path
 
